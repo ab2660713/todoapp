@@ -58,12 +58,12 @@ const [edit,setEdit]=useState({
     }
     //update todo
     const updateTodo=(updatedTodo)=>{
-      setTodos(todos.map(todo=>{
-        if(todo.id===updatedTodo.id){
+      setTodos(todos.map(todos=>{
+        if(todos.id===updatedTodo.id){
           return updatedTodo
         }
         else{
-           return todo
+           return todos
         }
       }))
       setEdit({
