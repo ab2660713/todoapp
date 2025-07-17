@@ -1,0 +1,128 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+nav{
+  background-color: #0C0950;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding: 20px;
+}
+nav h1{
+  color: #fff;
+  font-size: 32px;
+  list-style: none;
+}
+nav button{
+  border: none;
+  background-color: #143D60;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+.container {
+  min-height: 100vh;
+  padding: 40px;
+}
+.card{
+  padding: 20px;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+form input{
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px;
+  height: 35px;
+  border: #000B58 1px solid;
+  border-radius: 2px;
+}
+.Save-btn{
+width: 100%;
+height: 35px;
+background-color: #000B58;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+.Save-btn:hover {
+  background-color: #010524;
+}
+.list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.delete-btn {
+  background-color: #E41749;
+  padding: 6px;
+  margin: 0px 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.edit-btn {
+  background-color: #F96E2A;
+  padding: 6px;
+  margin: 0px 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c60837;
+}
+
+.edit-btn:hover {
+  background-color: #bd4a11;
+}
+
+
+/* Dark Mode */
+
+
+.dark-container {
+  background-color: #010524;
+  min-height: 100vh;
+  padding: 40px;
+  color: #7f6464;
+}
+
+
+.dark-card {
+  background-color: #003161;
+  padding: 20px;
+}
+
+.dark-list-item {
+  background-color: #003161;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 10px;
+  margin: 20px 0px;
+  border: 1px solid #e5e5e5;
+}
+
+p {
+  width: 100%;
+}
