@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Form = ({ addTodo,edit,updateTodo }) => {
 
@@ -19,8 +19,8 @@ const Form = ({ addTodo,edit,updateTodo }) => {
           }
         
           useEffect(()=>{
-        setText(edit.todos.text)
-          },[edit])
+setText(edit.todos.text)
+          },edit)
 
 
     return (
