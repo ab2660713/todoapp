@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+nav {
+    background-color: #000B58;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: #fff;
+}
+
+.theme-btn {
+    background-color: #003161;
+    padding: 6px 12px;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.theme-btn:hover {
+    background-color: #010524;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px;
+    height: 35px;
+    border: #000B58 1px solid;
+    border-radius: 2px;
+}
+
+.save-btn {
+    height: 35px;
+    width: 100%;
+    background-color: #000B58;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.save-btn:hover {
+    background-color: #010524;
+}
+
+
+.list-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.delete-btn {
+    background-color: #E41749;
+    padding: 6px;
+    margin: 0px 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.edit-btn {
+    background-color: #F96E2A;
+    padding: 6px;
+    margin: 0px 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c60837;
+}
+
+.edit-btn:hover {
+    background-color: #bd4a11;
+}
+
+
+/* Dark Mode */
+
+
+.dark-container {
+    background-color: #010524;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+
+.dark-card {
+    background-color: #003161;
+    padding: 20px;
+}
+
+.dark-list-item {
+    background-color: #003161;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 10px;
+    margin: 20px 0px;
+    border: 1px solid #e5e5e5;
+}
+
+p {
+    width: 100%;
+    font-size: 12px;
+    margin: 10px 0px;
+}
