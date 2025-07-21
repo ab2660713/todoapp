@@ -20,11 +20,11 @@ const Form = ({ addTodo,edit,updateTodo }) => {
         
           useEffect(()=>{
 setText(edit.todos.text)
-          },edit)
+          },[edit])
 
 
     return (
-        <form onSubmit={(e) => handleSubmit(e)} className="card">
+        <form onSubmit={(e) => handleTodo(e)} className="card">
             <input onChange={(e) => setText(e.target.value)} value={text} type="text" placeholder="Enter Text" />
             <button className="save-btn">Save</button>
         </form>
